@@ -1,2 +1,2 @@
-# bene-cfg
+# Bene's CSGO Config
 Bald

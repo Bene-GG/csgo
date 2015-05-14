@@ -1,6 +1,7 @@
 # Bene's CSGO Config
 
-[TOC]
+## Inhalt
+[Test](https://github.com/Bene-GG/bene-cfg#test)
 
 ## Test
 

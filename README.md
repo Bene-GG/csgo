@@ -7,7 +7,16 @@
 
 ## Installationsorte
 ### Autoexec
-
+  
+autoexec.cfg in diesen Ordner:
+    *:\*\steamapps\common\Counter-Strike Global Offensive\cfg\
+  
+(* = kann abweichen)
 ### Textmod
+
+csgo_bene.txt in diesen Ordner: 
+    *:\*\steamapps\common\Counter-Strike Global Offensive\cfg\resource\
+  
+(* = kann abweichen)
 
 ## Test 2

@@ -18,5 +18,3 @@ csgo_bene.txt in diesen Ordner:
   `*:\*\steamapps\common\Counter-Strike Global Offensive\cfg\resource\`
   
 (* = kann abweichen)
-
-## Test 2

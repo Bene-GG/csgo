@@ -1,5 +1,9 @@
 # Bene's CSGO Config
 
+<p align="center">
+  <img src="http://fl.bene.gg/pics/github/bannerlogo.png" alt="Benes Config Banner"/>
+</p>
+
 ## Inhalt
 [Installationsorte](https://github.com/Bene-GG/bene-cfg#installationsorte)  
 [Autoexec](https://github.com/Bene-GG/bene-cfg#Autoexec)  

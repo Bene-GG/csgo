@@ -1,9 +1,5 @@
 # Bene's CSGO Config
 
-<p align="center">
-  <img src="http://fl.bene.gg/pics/github/bannerlogo.png" alt="Benes Config Banner"/>
-</p>
-
 ## Inhalt
 [Installationsorte](https://github.com/Bene-GG/bene-cfg#installationsorte)  
 [Autoexec](https://github.com/Bene-GG/bene-cfg#Autoexec)  
@@ -12,13 +8,15 @@
 ## Installationsorte
 ### Autoexec
   
-autoexec.cfg in diesen Ordner:  
+* autoexec.cfg in diesen Ordner:  
   `*:\*\steamapps\common\Counter-Strike Global Offensive\cfg\`
   
 (* = kann abweichen)
 ### Textmod
 
-csgo_bene.txt in diesen Ordner:  
+* csgo_textmod.txt in diesen Ordner:  
   `*:\*\steamapps\common\Counter-Strike Global Offensive\cfg\resource\`
   
 (* = kann abweichen)
+
+* "-language textmod" ohne die Anführungszeichen zu den CSGO-Startoptionen hinzufügen.

@@ -2,9 +2,9 @@
 
 ## Inhalt
 [Installationsorte](https://github.com/Bene-GG/bene-cfg#installationsorte)  
-[Autoexec](https://github.com/Bene-GG/bene-cfg#Autoexec)  
-[Textmod](https://github.com/Bene-GG/bene-cfg#Textmod)  
-[Schriftart](https://github.com/Bene-GG/bene-cfg#Schriftart)
+[Autoexec](https://github.com/Bene-GG/bene-cfg#autoexec)  
+[Textmod](https://github.com/Bene-GG/bene-cfg#textmod)  
+[Schriftart](https://github.com/Bene-GG/bene-cfg#schriftart)
 
 ## Installationsorte
 ### Autoexec

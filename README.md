@@ -10,13 +10,13 @@
 ### Autoexec
   
 * autoexec.cfg in diesen Ordner:  
-  `*:\*\steamapps\common\Counter-Strike Global Offensive\cfg\`
+  `*:\*\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\`
   
 (* = kann abweichen)
 ### Textmod
 
 * csgo_textmod.txt in diesen Ordner:  
-  `*:\*\steamapps\common\Counter-Strike Global Offensive\cfg\resource\`
+  `*:\*\steamapps\common\Counter-Strike Global Offensive\csgo\resource\`
   
 (* = kann abweichen)
 

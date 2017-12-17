@@ -27,3 +27,8 @@
 * fontlib_custom.swf und fontmapping.cfg in diesen Ordner und ggf. überschreiben:
 
   `*:\*\steamapps\common\Counter-Strike Global Offensive\csgo\resource\flash`
+
+### Radar
+* Inhalt von \radar\files in diesen Ordner und überschreiben:
+
+  `*:\*\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews`

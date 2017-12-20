@@ -1,8 +1,10 @@
 @echo off
+REM AUSFUEHRUNG: datei.cmd <Steam-Username> <Steam-Pfad>
 SETLOCAL EnableExtensions
-
-set username=Steam-Username
-set steamdir=Steam-Pfad
+if %1!==! goto FEHLERPARAM1
+if %2!==! goto FEHLERPARAM2
+set username=%1
+set steamdir=%2
 
 :START
 :STEAMPRUEFUNG
@@ -25,6 +27,15 @@ reg add "HKCU\Software\Valve\Steam" /v AutoLoginUser /t REG_SZ /d %username% /f
 reg add "HKCU\Software\Valve\Steam" /v RememberPassword /t REG_DWORD /d 1 /f
 echo Starte Steam...
 start steam://open/main
+goto EOF
+
+:FEHLERPARAM1
+echo Parameter1 (Benutzername) fehlt.
+pause
+goto EOF
+:FEHLERPARAM2
+echo Parameter2 (Steam-Pfad) fehlt.
+pause
 goto EOF
 
 :EOF

@@ -1,0 +1,2 @@
+1. Steam starten, mit gewünschtem Account anmelden und Passwort speichern anhaken.
+2. Steam beenden, Datei anpassen und nutzen.

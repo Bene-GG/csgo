@@ -1,4 +1,7 @@
-
+---
+title: Home
+layout: default
+---
 # Bene's CSGO Config
 
 ## Inhalt

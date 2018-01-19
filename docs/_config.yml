@@ -1,6 +1,6 @@
 theme: jekyll-theme-midnight
 title: CSGO-Config - Bene.GG
-description: Diverse Konfigurationsmechaniken für "Counter-Strike: Global Offensive" von Valve.
+description: Diverse Konfigurationsmechaniken für Counter-Strike Global Offensive von Valve.
 show_downloads: true
 plugins:
  - jekyll-feed

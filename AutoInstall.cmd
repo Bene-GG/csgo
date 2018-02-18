@@ -29,7 +29,7 @@ REM ---------------------
 REM Autoexec
 :AUTOEXECQ
 
-echo. && CHOICE /C JN /M "Autoexec kopieren/ueberschreiben?"
+echo. && CHOICE /C JN /M "Autoexec kopieren/ueberschreiben? (VORSICHT: Die alte wird einfach         ueberschrieben.)"
 IF ERRORLEVEL 2 GOTO TEXTMODQ
 IF ERRORLEVEL 1 GOTO AUTOEXEC
 :AUTOEXEC

@@ -1,4 +1,5 @@
 @echo off
+IF NOT DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min %~dpnx0 %1 && exit
 TITLE %~nx0 - Loginskript mit Steam-Benutzernamen %1
 SETLOCAL EnableExtensions
 IF %1!==! (goto FEHLERPARAM1)ELSE (goto START)
@@ -36,15 +37,22 @@ goto AUTOLOGIN
 echo Beende den Steam-Prozess...
 cd /d "%SteamOrdner%"
 start /WAIT Steam.exe -shutdown
+
 :STEAMBEENDENWAIT
 echo Warte auf Beendigung...
-FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq Steam.exe"') DO IF NOT %%x==Steam.exe (goto AUTOLOGIN)ELSE (goto STEAMBEENDENWAIT)
+FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq Steam.exe"') DO IF NOT %%x==Steam.exe (goto STEAMBEENDENWAIT2)ELSE (goto STEAMBEENDENWAIT)
+:STEAMBEENDENWAIT2
+FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq SteamService.exe"') DO IF NOT %%x==SteamService.exe (goto STEAMBEENDENWAIT3)ELSE (goto STEAMBEENDENWAIT2)
+:STEAMBEENDENWAIT3
+FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq steamwebhelper.exe"') DO IF NOT %%x==steamwebhelper.exe (goto STEAMBEENDENWAIT4)ELSE (goto STEAMBEENDENWAIT3)
+:STEAMBEENDENWAIT4
+IF EXIST ".crash" GOTO STEAMBEENDENWAIT4
 goto AUTOLOGIN
 
 :AUTOLOGIN
 echo Setze Registry-Werte...
-reg add "HKCU\Software\Valve\Steam" /v AutoLoginUser /t REG_SZ /d %username% /f
-reg add "HKCU\Software\Valve\Steam" /v RememberPassword /t REG_DWORD /d 1 /f
+reg add %WinRegistrySteam% /v AutoLoginUser /t REG_SZ /d %username% /f
+reg add %WinRegistrySteam% /v RememberPassword /t REG_DWORD /d 1 /f
 echo Starte Steam...
 start steam://open/main
 echo Pruefe, ob Freundesliste nach dem Start geoeffnet werden soll...
@@ -61,4 +69,4 @@ goto EOF
 
 :EOF
 echo Beende Skript...
-exit /b 0
+exit

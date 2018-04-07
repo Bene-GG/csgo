@@ -68,6 +68,7 @@ IF ERRORLEVEL 2 GOTO ENDQ
 IF ERRORLEVEL 1 GOTO RADAR
 :RADAR
 copy /Y ".\radar\files\*.dds" "%CSGOOrdner%\csgo\resource\overviews"
+del "%CSGOOrdner%\csgo\resource\overviews\de_cache_radar_spectate.dds"
 echo Radar-Dateien kopiert
 REM ---------------------
 

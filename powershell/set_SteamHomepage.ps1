@@ -11,7 +11,7 @@ $ErrorActionPreference = 'SilentlyContinue'
 #-----------------------------------------------------------[Execution]------------------------------------------------------------
 
 $find = 'https://www.google.com'
-$replace = 'https://bene.gg/projekte/csportal'
+$replace = 'http://portal.bene.gg'
 $match = 'localconfig.vdf'
 $preview = $false
 

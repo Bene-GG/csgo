@@ -7,4 +7,3 @@ PowerShell "gps -processname "csgo" | &{ $input.moveNext(); $input.Current.Proce
 PowerShell "gps -processname "csgo" | &{ $input.moveNext(); $input.Current.PriorityClass = 'AboveNormal' }"
 PowerShell "Set-MpPreference -DisableRealtimeMonitoring $true"
 TASKKILL /F /T /IM NvTelemetryContainer.exe /IM OneDrive.exe /IM acrotray.exe /IM acrobat_sl.exe /IM AdobeUpdateService.exe /IM ctfmon.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe /IM OfficeClickToRun.exe
-net stop UsoSvc

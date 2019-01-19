@@ -1,2 +1,8 @@
 autoexec_copy.cmd
 set_ProcessSettings.cmd
+registry/Default_Multimedia-SystemProfile-NetworkThr-SysremRes.reg
+registry/Default_Multimedia-SystemProfile-Tasks-Games.reg
+registry/Tweak_Multimedia-SystemProfile-NetworkThr-SysremRes.reg
+registry/Tweak_Multimedia-SystemProfile-Tasks-Games.reg
+
+

@@ -1,1 +1,1 @@
-echo -novid -console -freq 144 -tickrate 128 -no-browser -language textmod| clip
+echo -fullscreen -w 1440 -h 1080 -novid -console -freq 144 -tickrate 128 -no-browser -language textmod| clip

@@ -1,6 +1,7 @@
 # Bene's CSGO Config
 
-# ARCHIVED - CHECK OUT https://github.com/Bene-GG/counterstrike for CS2
+# ARCHIVED
+Check out https://github.com/Bene-GG/counterstrike for CS2.
 
 ## Inhalt
 [Installationsorte](https://github.com/Bene-GG/bene-cfg#installationsorte)  
